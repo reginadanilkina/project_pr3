@@ -1,0 +1,50 @@
+/* Установка стилей для тела страницы */
+body {
+    font-family: 'Century Gothic', serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+.back_container {
+    gap: 40px;
+    height: 775px;
+    width: 100%;
+}
+.back {
+    background: url(../img/back.png) no-repeat;
+    height: 200px;
+}
+.footer {
+    background: url(../img/padval.png) no-repeat;
+    height: 462px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    top: 20px;
+    margin-top: 60px;
+}
+.animal {
+    background: #685C54;
+    width: 380px;
+    height: 390px;
+    border-radius: 20px;
+    color: #fff;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 19px;
+}
+img {
+    height: 247px;
+    border-radius: 1000px 1000px 100px  100px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 55px;
+}
